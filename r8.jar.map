@@ -1,10 +1,10 @@
 # compiler: R8
-# compiler_version: 3.3.20-dev+aosp7
+# compiler_version: 3.3.20-dev+aosp10
 # compiler_hash: engineering
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: 3.3.20-dev+aosp7
-# pg_map_hash: SHA-256 23bae7e8a8d7d663cc772ecbc869c31b46efb66f49b3137e6f848db8227cd08a
+# pg_map_id: 3.3.20-dev+aosp10
+# pg_map_hash: SHA-256 f6c2130034135cf656f8cd052e7bd75b21bdaaf764b1faf5934218fb4fc47b9f
 com.android.tools.r8.ApiLevelException -> com.android.tools.r8.internal.g2:
     boolean $assertionsDisabled -> d
     1:1:void <clinit>():10:10 -> <clinit>
@@ -32974,31 +32974,31 @@ com.android.tools.r8.graph.JarClassFileReader$CreateAnnotationVisitor -> com.and
     com.android.tools.r8.graph.JarApplicationReader application -> b
     boolean $assertionsDisabled -> f
     java.util.function.BiConsumer onVisitEnd -> c
-    1:1:void <clinit>():974:974 -> <clinit>
-    1:1:void <init>(com.android.tools.r8.graph.JarApplicationReader,java.util.function.BiConsumer):983:983 -> <init>
-    2:9:void <init>(com.android.tools.r8.graph.JarApplicationReader,java.util.function.BiConsumer):978:985 -> <init>
-    1:2:void visitEnum(java.lang.String,java.lang.String,java.lang.String):995:996 -> a
+    1:1:void <clinit>():980:980 -> <clinit>
+    1:1:void <init>(com.android.tools.r8.graph.JarApplicationReader,java.util.function.BiConsumer):989:989 -> <init>
+    2:9:void <init>(com.android.tools.r8.graph.JarApplicationReader,java.util.function.BiConsumer):984:991 -> <init>
+    1:2:void visitEnum(java.lang.String,java.lang.String,java.lang.String):1001:1002 -> a
     3:3:com.android.tools.r8.graph.DexField com.android.tools.r8.graph.JarApplicationReader.getField(com.android.tools.r8.graph.DexType,java.lang.String,java.lang.String):94:94 -> a
-    3:3:void visitEnum(java.lang.String,java.lang.String,java.lang.String):996 -> a
+    3:3:void visitEnum(java.lang.String,java.lang.String,java.lang.String):1002 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     4:4:com.android.tools.r8.graph.DexField com.android.tools.r8.graph.JarApplicationReader.getField(com.android.tools.r8.graph.DexType,java.lang.String,java.lang.String):94:94 -> a
-    4:4:void visitEnum(java.lang.String,java.lang.String,java.lang.String):996 -> a
-    5:5:void visitEnum(java.lang.String,java.lang.String,java.lang.String):996:996 -> a
-    6:6:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,java.lang.String):1001:1001 -> a
-    7:9:void lambda$visitAnnotation$0(java.lang.String,java.lang.String,java.util.List,java.util.List):1002:1002 -> a
-    10:10:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitArray(java.lang.String):1008:1008 -> a
-    11:12:void lambda$visitArray$1(java.lang.String,java.util.List,java.util.List):1009:1010 -> a
-    13:13:void visitEnd():1016:1016 -> a
-    14:19:void addElement(java.lang.String,com.android.tools.r8.graph.DexValue):1021:1026 -> a
-    20:41:com.android.tools.r8.graph.DexValue getDexValue(java.lang.Object):1092:1113 -> a
-    20:41:void visit(java.lang.String,java.lang.Object):990 -> a
-    42:97:com.android.tools.r8.graph.DexValue$DexValueArray getDexValueArray(java.lang.Object):1030:1085 -> a
-    42:97:com.android.tools.r8.graph.DexValue getDexValue(java.lang.Object):1115 -> a
-    42:97:void visit(java.lang.String,java.lang.Object):990 -> a
-    98:98:void visit(java.lang.String,java.lang.Object):990:990 -> a
-    99:99:com.android.tools.r8.graph.DexValue$DexValueArray getDexValueArray(java.lang.Object):1087:1087 -> a
-    99:99:com.android.tools.r8.graph.DexValue getDexValue(java.lang.Object):1115 -> a
-    99:99:void visit(java.lang.String,java.lang.Object):990 -> a
+    4:4:void visitEnum(java.lang.String,java.lang.String,java.lang.String):1002 -> a
+    5:5:void visitEnum(java.lang.String,java.lang.String,java.lang.String):1002:1002 -> a
+    6:6:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,java.lang.String):1007:1007 -> a
+    7:9:void lambda$visitAnnotation$0(java.lang.String,java.lang.String,java.util.List,java.util.List):1008:1008 -> a
+    10:10:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitArray(java.lang.String):1014:1014 -> a
+    11:12:void lambda$visitArray$1(java.lang.String,java.util.List,java.util.List):1015:1016 -> a
+    13:13:void visitEnd():1022:1022 -> a
+    14:19:void addElement(java.lang.String,com.android.tools.r8.graph.DexValue):1027:1032 -> a
+    20:41:com.android.tools.r8.graph.DexValue getDexValue(java.lang.Object):1098:1119 -> a
+    20:41:void visit(java.lang.String,java.lang.Object):996 -> a
+    42:97:com.android.tools.r8.graph.DexValue$DexValueArray getDexValueArray(java.lang.Object):1036:1091 -> a
+    42:97:com.android.tools.r8.graph.DexValue getDexValue(java.lang.Object):1121 -> a
+    42:97:void visit(java.lang.String,java.lang.Object):996 -> a
+    98:98:void visit(java.lang.String,java.lang.Object):996:996 -> a
+    99:99:com.android.tools.r8.graph.DexValue$DexValueArray getDexValueArray(java.lang.Object):1093:1093 -> a
+    99:99:com.android.tools.r8.graph.DexValue getDexValue(java.lang.Object):1121 -> a
+    99:99:void visit(java.lang.String,java.lang.Object):996 -> a
 com.android.tools.r8.graph.JarClassFileReader$CreateDexClassVisitor -> com.android.tools.r8.graph.u2:
     com.android.tools.r8.graph.ClassKind classKind -> d
     com.android.tools.r8.graph.DexType superType -> l
@@ -33353,70 +33353,70 @@ com.android.tools.r8.graph.JarClassFileReader$CreateMethodVisitor -> com.android
     4:10:void visitAnnotableParameterCount(int,boolean):819:825 -> a
     11:22:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitParameterAnnotation(int,java.lang.String,boolean):830:841 -> a
     23:23:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitParameterAnnotation(int,java.lang.String,boolean):840:840 -> a
-    24:27:java.util.List getAnnotations():963:966 -> a
-    24:27:void addAnnotation(com.android.tools.r8.graph.DexAnnotation):970 -> a
-    28:28:void addAnnotation(com.android.tools.r8.graph.DexAnnotation):970:970 -> a
-    29:32:java.util.List getAnnotations():963:966 -> a
+    24:27:java.util.List getAnnotations():969:972 -> a
+    24:27:void addAnnotation(com.android.tools.r8.graph.DexAnnotation):976 -> a
+    28:28:void addAnnotation(com.android.tools.r8.graph.DexAnnotation):976:976 -> a
+    29:32:java.util.List getAnnotations():969:972 -> a
     29:32:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,boolean):799 -> a
     33:33:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitAnnotation(java.lang.String,boolean):799:799 -> a
     com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitTryCatchAnnotation(int,com.android.tools.r8.org.objectweb.asm.TypePath,java.lang.String,boolean) -> b
-    1:6:void visitParameter(java.lang.String,int):867:872 -> b
-    7:7:com.android.tools.r8.graph.DexItemFactory com.android.tools.r8.graph.JarApplicationReader.getFactory():45:45 -> b
-    7:7:void visitParameter(java.lang.String,int):872 -> b
+    1:11:void visitParameter(java.lang.String,int):867:877 -> b
+    12:12:com.android.tools.r8.graph.DexItemFactory com.android.tools.r8.graph.JarApplicationReader.getFactory():45:45 -> b
+    12:12:void visitParameter(java.lang.String,int):877 -> b
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    8:8:com.android.tools.r8.graph.DexItemFactory com.android.tools.r8.graph.JarApplicationReader.getFactory():45:45 -> b
-    8:8:void visitParameter(java.lang.String,int):872 -> b
-    9:11:void visitParameter(java.lang.String,int):872:874 -> b
-    12:12:void visitCode():879:879 -> b
+    13:13:com.android.tools.r8.graph.DexItemFactory com.android.tools.r8.graph.JarApplicationReader.getFactory():45:45 -> b
+    13:13:void visitParameter(java.lang.String,int):877 -> b
+    14:17:void visitParameter(java.lang.String,int):877:880 -> b
+    18:18:void visitCode():885:885 -> b
     com.android.tools.r8.org.objectweb.asm.AnnotationVisitor visitTypeAnnotation(int,com.android.tools.r8.org.objectweb.asm.TypePath,java.lang.String,boolean) -> c
-    1:3:void visitEnd():891:893 -> c
-    4:5:boolean classRequiresCode():883:884 -> c
-    4:5:void visitEnd():893 -> c
+    1:3:void visitEnd():897:899 -> c
+    4:5:boolean classRequiresCode():889:890 -> c
+    4:5:void visitEnd():899 -> c
     6:6:boolean com.android.tools.r8.utils.InternalOptions.canUseNestBasedAccess():1943:1943 -> c
-    6:6:boolean classRequiresCode():884 -> c
-    6:6:void visitEnd():893 -> c
+    6:6:boolean classRequiresCode():890 -> c
+    6:6:void visitEnd():899 -> c
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
-    7:9:boolean classRequiresCode():884:886 -> c
-    7:9:void visitEnd():893 -> c
-    10:18:void visitEnd():894:902 -> c
+    7:9:boolean classRequiresCode():890:892 -> c
+    7:9:void visitEnd():899 -> c
+    10:18:void visitEnd():900:908 -> c
     19:19:com.android.tools.r8.graph.ParameterAnnotationsList com.android.tools.r8.graph.ParameterAnnotationsList.create(com.android.tools.r8.graph.DexAnnotationSet[]):72:72 -> c
-    19:19:void visitEnd():904 -> c
-    20:24:void visitEnd():906:910 -> c
-    25:25:void visitEnd():909:909 -> c
-    26:29:java.util.List getAnnotations():963:966 -> c
-    26:29:void visitEnd():912 -> c
-    30:33:void visitEnd():912:915 -> c
+    19:19:void visitEnd():910 -> c
+    20:24:void visitEnd():912:916 -> c
+    25:25:void visitEnd():915:915 -> c
+    26:29:java.util.List getAnnotations():969:972 -> c
+    26:29:void visitEnd():918 -> c
+    30:33:void visitEnd():918:921 -> c
     34:34:com.android.tools.r8.graph.DexItemFactory com.android.tools.r8.graph.JarApplicationReader.getFactory():45:45 -> c
-    34:34:void visitEnd():915 -> c
+    34:34:void visitEnd():921 -> c
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     35:35:com.android.tools.r8.graph.DexItemFactory com.android.tools.r8.graph.JarApplicationReader.getFactory():45:45 -> c
-    35:35:void visitEnd():915 -> c
-    36:56:void visitEnd():912:932 -> c
-    57:57:boolean isReachabilitySensitive():953:953 -> c
-    57:57:void visitEnd():932 -> c
+    35:35:void visitEnd():921 -> c
+    36:56:void visitEnd():918:938 -> c
+    57:57:boolean isReachabilitySensitive():959:959 -> c
+    57:57:void visitEnd():938 -> c
     58:58:com.android.tools.r8.graph.DexItemFactory com.android.tools.r8.graph.JarApplicationReader.getFactory():45:45 -> c
-    58:58:boolean isReachabilitySensitive():953 -> c
+    58:58:boolean isReachabilitySensitive():959 -> c
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    58:58:void visitEnd():932 -> c
+    58:58:void visitEnd():938 -> c
     59:59:com.android.tools.r8.graph.DexItemFactory com.android.tools.r8.graph.JarApplicationReader.getFactory():45:45 -> c
-    59:59:boolean isReachabilitySensitive():953 -> c
-    59:59:void visitEnd():932 -> c
-    60:60:boolean isReachabilitySensitive():953:953 -> c
-    60:60:void visitEnd():932 -> c
-    61:64:java.util.List getAnnotations():963:966 -> c
-    61:64:boolean isReachabilitySensitive():954 -> c
-    61:64:void visitEnd():932 -> c
-    65:66:boolean isReachabilitySensitive():954:955 -> c
-    65:66:void visitEnd():932 -> c
-    67:71:void visitEnd():932:936 -> c
-    72:82:void visitEnd():934:944 -> c
-    83:83:void visitEnd():941:941 -> c
-    84:92:void visitEnd():939:947 -> c
+    59:59:boolean isReachabilitySensitive():959 -> c
+    59:59:void visitEnd():938 -> c
+    60:60:boolean isReachabilitySensitive():959:959 -> c
+    60:60:void visitEnd():938 -> c
+    61:64:java.util.List getAnnotations():969:972 -> c
+    61:64:boolean isReachabilitySensitive():960 -> c
+    61:64:void visitEnd():938 -> c
+    65:66:boolean isReachabilitySensitive():960:961 -> c
+    65:66:void visitEnd():938 -> c
+    67:71:void visitEnd():938:942 -> c
+    72:82:void visitEnd():940:950 -> c
+    83:83:void visitEnd():947:947 -> c
+    84:92:void visitEnd():945:953 -> c
 com.android.tools.r8.graph.JarClassFileReader$ReparseContext -> com.android.tools.r8.internal.uv:
     com.android.tools.r8.graph.DexClass owner -> b
     byte[] classCache -> a
     java.util.List codeList -> c
-    1:8:void <init>():1119:1126 -> <init>
+    1:8:void <init>():1125:1132 -> <init>
 com.android.tools.r8.graph.LazyCfCode -> com.android.tools.r8.graph.C2:
     com.android.tools.r8.graph.CfCode code -> f
     com.android.tools.r8.graph.JarApplicationReader application -> e
@@ -83042,13 +83042,13 @@ com.android.tools.r8.jar.CfApplicationWriter -> com.android.tools.r8.internal.z6
     1:18:void <clinit>():79:96 -> <clinit>
     1:10:void <init>(com.android.tools.r8.graph.AppView,com.android.tools.r8.dex.Marker,com.android.tools.r8.graph.GraphLens,com.android.tools.r8.naming.NamingLens):99:108 -> <init>
     1:1:int com.android.tools.r8.graph.ParameterAnnotationsList.getAnnotableParameterCount():102:102 -> a
-    1:1:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):489 -> a
+    1:1:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):490 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    2:2:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):488:488 -> a
+    2:2:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):489:489 -> a
     3:3:int com.android.tools.r8.graph.ParameterAnnotationsList.getAnnotableParameterCount():102:102 -> a
-    3:3:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):491 -> a
-    4:11:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):490:497 -> a
-    12:12:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):495:495 -> a
+    3:3:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):492 -> a
+    4:11:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):491:498 -> a
+    12:12:void writeParameterAnnotations(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.ParameterAnnotationsList):496:496 -> a
     13:14:void write(com.android.tools.r8.ClassFileConsumer):112:113 -> a
     15:19:void write(com.android.tools.r8.ClassFileConsumer,com.android.tools.r8.utils.AndroidApp):117:121 -> a
     20:20:void writeClass(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ClassFileConsumer,com.android.tools.r8.ir.conversion.LensCodeRewriterUtils,java.util.Optional,com.android.tools.r8.SourceFileEnvironment):193:193 -> a
@@ -83133,21 +83133,21 @@ com.android.tools.r8.jar.CfApplicationWriter -> com.android.tools.r8.internal.z6
     595:603:java.lang.String[] com.android.tools.r8.jar.CfApplicationWriter.getExceptions(com.android.tools.r8.graph.DexAnnotationSet):389:397 -> a
     595:603:void writeMethod(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.cf.CfVersion,com.android.tools.r8.ir.conversion.LensCodeRewriterUtils,com.android.tools.r8.org.objectweb.asm.ClassWriter,com.android.tools.r8.com.google.common.collect.ImmutableMap):445 -> a
     604:615:void writeMethod(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.cf.CfVersion,com.android.tools.r8.ir.conversion.LensCodeRewriterUtils,com.android.tools.r8.org.objectweb.asm.ClassWriter,com.android.tools.r8.com.google.common.collect.ImmutableMap):446:457 -> a
-    616:619:void com.android.tools.r8.jar.CfApplicationWriter.writeCode(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.cf.CfVersion,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.ir.conversion.LensCodeRewriterUtils,com.android.tools.r8.org.objectweb.asm.MethodVisitor):600:603 -> a
+    616:619:void com.android.tools.r8.jar.CfApplicationWriter.writeCode(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.cf.CfVersion,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.ir.conversion.LensCodeRewriterUtils,com.android.tools.r8.org.objectweb.asm.MethodVisitor):601:604 -> a
     616:619:void writeMethod(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.cf.CfVersion,com.android.tools.r8.ir.conversion.LensCodeRewriterUtils,com.android.tools.r8.org.objectweb.asm.ClassWriter,com.android.tools.r8.com.google.common.collect.ImmutableMap):458 -> a
-    620:633:void writeMethodParametersAnnotation(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.DexAnnotation[]):464:477 -> a
-    634:634:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor lambda$writeParameterAnnotations$4(com.android.tools.r8.org.objectweb.asm.MethodVisitor,int,java.lang.String,boolean):496:496 -> a
-    635:644:void writeAnnotations(com.android.tools.r8.jar.CfApplicationWriter$AnnotationConsumer,com.android.tools.r8.graph.DexAnnotation[]):506:515 -> a
-    645:650:void writeAnnotations(com.android.tools.r8.jar.CfApplicationWriter$AnnotationConsumer,com.android.tools.r8.graph.DexAnnotation[]):514:519 -> a
-    651:652:void writeAnnotation(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,com.android.tools.r8.graph.DexEncodedAnnotation):525:526 -> a
-    653:711:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):531:589 -> a
-    712:715:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):534:537 -> a
-    716:743:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):536:563 -> a
-    744:754:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):560:570 -> a
-    755:773:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):567:585 -> a
-    774:774:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):583:583 -> a
-    775:775:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):579:579 -> a
-    776:779:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):573:576 -> a
+    620:634:void writeMethodParametersAnnotation(com.android.tools.r8.org.objectweb.asm.MethodVisitor,com.android.tools.r8.graph.DexAnnotation[]):464:478 -> a
+    635:635:com.android.tools.r8.org.objectweb.asm.AnnotationVisitor lambda$writeParameterAnnotations$4(com.android.tools.r8.org.objectweb.asm.MethodVisitor,int,java.lang.String,boolean):497:497 -> a
+    636:645:void writeAnnotations(com.android.tools.r8.jar.CfApplicationWriter$AnnotationConsumer,com.android.tools.r8.graph.DexAnnotation[]):507:516 -> a
+    646:651:void writeAnnotations(com.android.tools.r8.jar.CfApplicationWriter$AnnotationConsumer,com.android.tools.r8.graph.DexAnnotation[]):515:520 -> a
+    652:653:void writeAnnotation(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,com.android.tools.r8.graph.DexEncodedAnnotation):526:527 -> a
+    654:712:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):532:590 -> a
+    713:716:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):535:538 -> a
+    717:744:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):537:564 -> a
+    745:755:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):561:571 -> a
+    756:774:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):568:586 -> a
+    775:775:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):584:584 -> a
+    776:776:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):580:580 -> a
+    777:780:void writeAnnotationElement(com.android.tools.r8.org.objectweb.asm.AnnotationVisitor,java.lang.String,com.android.tools.r8.graph.DexValue):574:577 -> a
     1:9:void writeApplication(com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.ClassFileConsumer):138:146 -> b
     10:20:void writeApplication(com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.ClassFileConsumer):140:150 -> b
     21:24:boolean com.android.tools.r8.jar.CfApplicationWriter.includeMarker(com.android.tools.r8.dex.Marker):126:129 -> b
